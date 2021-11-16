@@ -1,0 +1,25 @@
+server:
+  port: 9890
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: mailtouser987temp@gmail.com
+    password: aaethiigcsrtdbta
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+
+
